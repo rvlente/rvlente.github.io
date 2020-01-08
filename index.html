@@ -36,7 +36,7 @@
 
       function newMeme()
       {
-        document.findElementById("meme").src = memes[counter++];
+        document.getElementById("meme").src = memes[counter++];
         if (counter >= memes.length)
           counter = 0;
       }
