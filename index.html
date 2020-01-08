@@ -34,11 +34,15 @@
         "https://i.imgur.com/oEJctZZ.jpg"
       ];
 
-      window.setInterval(function() {
+      function newMeme()
+      {
         document.findElementById("meme").src = memes[counter++];
         if (counter >= memes.length)
           counter = 0;
-      }, 10000);
+      }
+
+      window.onload = newMeme;
+      window.setInterval(newMeme, 10000);
     </script>
   </head>
   <body>
