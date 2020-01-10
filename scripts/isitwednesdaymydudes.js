@@ -11,11 +11,11 @@ function showAppropriateFrog() {
 
     if (itsWednesdayMyDudes)
     {
-        document.getElementById("meme").src = "img/wednesday.jpg";
+        document.getElementById("meme").src = "images/wednesday.jpg";
     }
     else
     {
-        document.getElementById("meme").src = "img/notwednesday.jpg";
+        document.getElementById("meme").src = "images/notwednesday.jpg";
     }
 }
 
