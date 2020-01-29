@@ -14,8 +14,8 @@ let memes = [
     "https://steamuserimages-a.akamaihd.net/ugc/844841281463791402/8E04A646F63E466A553E385E381BE5C5FD712FC7/",
     "https://www.nicepng.com/png/full/212-2120727_pepe-monkagun-monkagun-emote.png",
     "https://i.imgur.com/oEJctZZ.jpg",
-    "images/feelseggman",
-    "images/feelsweirdman",
+    "images/feelseggman.png",
+    "images/feelsweirdman.png",
     "images/wednesday.jpg"
 ];
 
