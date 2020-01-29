@@ -18,7 +18,11 @@ let memes = [
     "images/feelsweirdman.png",
     "images/wednesday.jpg",
     "https://i.imgur.com/iZiMcGZ.jpg",
-    "https://i.kym-cdn.com/photos/images/original/001/297/314/17e.jpg"
+    "https://i.kym-cdn.com/photos/images/original/001/297/314/17e.jpg",
+    "https://i.imgur.com/0tykmxD.gif",
+    "https://i.imgur.com/KDh7HzD.gif",
+    "https://i.imgur.com/RG0OzlB.gif",
+    "https://i.imgur.com/jgGsZfw.gif"
 ];
 
 function newMeme()
