@@ -1,5 +1,3 @@
-let counter = 0;
-
 let memes = [
     "https://i.kym-cdn.com/photos/images/newsfeed/001/613/878/02d.jpg",
     "https://i.redd.it/pmqkr34i2v241.jpg",
@@ -8,9 +6,8 @@ let memes = [
 
 function newMeme()
 {
-    document.getElementById("meme").src = memes[counter++];
-    if (counter >= memes.length)
-        counter = 0;
+    let index = Math.floor(Math.random() * memes.length);
+    document.getElementById("meme").src = memes[index];
 }
 
 window.onload = newMeme;
