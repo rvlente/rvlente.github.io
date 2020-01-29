@@ -26,4 +26,4 @@ function newMeme()
 }
 
 window.onload = newMeme;
-window.setInterval(newMeme, 30000);
+window.setInterval(newMeme, 20000);
