@@ -1,5 +1,15 @@
 <html>
+    <head>
+        <script>
+            var openApp = function() {
+                window.location.replace('https://mijnaccount.serviceapotheek.nl/app/login');
+            };
+            var triggerAppOpen = function() {
+                openApp();
+            };
+        </script>
+    </head>
     <body>
-        <a href="https://mijnaccount.serviceapotheek.nl/app/login">Open app</a>
+        <a onclick="triggerAppOpen()">Open app</a>
     </body>
 </html>
