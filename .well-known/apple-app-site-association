@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [ "V6E5D3L73Z.nl.serviceapotheek.serviceapotheek-app" ],
+        "components": [
+          {
+            "/": "/app/*"
+          }
+        ]
+      }
+    ]
+  }
+}
