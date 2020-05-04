@@ -1,11 +1,17 @@
 {
   "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "V6E5D3L73Z.nl.serviceapotheek.serviceapotheek-app",
-        "paths": ["/app/login"]
-      }
-    ]
-  }
+      "details": [
+           {
+             "appIDs": [ "V6E5D3L73Z.nl.serviceapotheek.serviceapotheek-app" ],
+             "components": [
+               {
+                  "/": "/app/*"
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "V6E5D3L73Z.nl.serviceapotheek.serviceapotheek-app" ]
+   }
 }
