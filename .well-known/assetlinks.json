@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "nl.serviceapotheek.serviceapotheek_app",
+      "sha256_cert_fingerprints": [
+          "A8:D4:26:56:24:39:0E:66:20:3E:F7:EA:5F:32:D8:82:F9:6D:8C:C3:F9:37:D8:90:62:20:DB:04:24:6E:70:5D"
+      ]
+    }
+  }
+]
