@@ -1,0 +1,16 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+        {
+          "appID": "V6E5D3L73Z.nl.serviceapotheek.serviceapotheek-app",
+          "paths": ["*"],
+          "components": [
+            {
+              "/": "*"
+            }
+          ]
+        }
+      ]
+   }
+}
