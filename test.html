@@ -1,17 +1,5 @@
 <html>
-    <head>
-        <script>
-            var openApp = function() {
-                window.location.replace('serviceapotheek-app://login');
-            };
-            var triggerAppOpen = function() {
-                openApp();
-            };
-        </script>
-    </head>
     <body>
-        <a onclick="triggerAppOpen()">Open app 1</a>
-        <a href="serviceapotheek-app://login">Open app 2</a>
-        <a href="serviceapotheek-app://login" target="_blank">Open app 3</a>
+        <a href="serviceapotheek-app://login?email=testemail@test.nl">Open app</a>
     </body>
 </html>
